@@ -1,0 +1,156 @@
+.create-khatm{
+  .btn:focus{
+    outline: none;
+  }
+  .btn{
+    background-color: #fff;
+    border: 1px solid #ddd;
+    box-shadow: 0 0 3px #ccc;
+    width: 960px;
+    height: 60px;
+    box-sizing: border-box;
+    margin: 10px auto;
+    display: block;
+    font-family: IRANsans;
+    font-size: 16px;
+    color: #009587;
+    font-weight: bold;
+    cursor: pointer;
+  }
+}
+.stepper-holder{
+  width: 960px;
+  margin: 0 auto;
+}
+.stepper-content-holder{
+  width: 960px;
+  margin: 20px auto 60px;
+}
+.step1{
+  .item {
+    width: 100%;
+    background-color: #009587;
+    border: none;
+    margin: 0;
+    box-sizing: border-box;
+    text-align: center;
+    color: #fff;
+    padding: 25px 0 0;
+    button{
+      width: 100%;
+      height: 35px;
+      background-color: #fff;
+      border: none;
+      font-family: IRANSans;
+      font-size: 18px;
+      color: #666;
+      margin-top: 10px;
+      cursor: pointer;
+    }
+  }
+
+}
+.MuiFormHelperText-root-30{
+  text-align: right !important;
+}
+.MuiInputLabel-formControl-6{
+  right: 0 !important;
+  left: inherit !important;
+}
+.MuiStepLabel-iconContainer-118{
+  padding-left: 8px;
+  padding-right: 0;
+}
+.reminder{
+  display: flex;
+  width: 80%;
+  height: 40px;
+  line-height: 40px;
+  box-sizing: border-box;
+  position: relative;
+  border-radius: 3px;
+  padding: 0;
+  margin: 0 auto;
+  color: #888;
+  white-space: nowrap;
+  border: 1px solid #ddd;
+  direction: ltr;
+  .reminder-logo{
+    height: 27px;
+    margin: 6px 16px;
+    box-sizing: border-box;
+    border-right: 1px solid #ddd;
+    width: 43px;
+  }
+  input{
+    flex: auto;
+    border: none;
+    font-size: 14px;
+    line-height: 30px;
+  }
+  input:focus{
+    outline: none;
+  }
+  button:focus{
+    outline: none;
+  }
+  button{
+    font-family: IRANSans;
+    line-height: 30px;
+    border: none;
+    font-size: 14px;
+    padding: 0 16px;
+    cursor: pointer;
+    background-color: #009587;
+    color: #fff;
+  }
+}
+.reminder-holder{
+    width: 960px;
+    margin: 0 auto;
+  p{
+    width: 80%;
+    margin: 0 auto;
+    line-height: 42px;;
+  }
+}
+.landing-box{
+  width: 80%;
+  border: 2px solid #ccc;
+  height: 40px;
+  line-height: 40px;
+  box-sizing: border-box;
+  position: relative;
+  border-radius: 3px;
+  padding: 0 0 0 85px;
+  direction: ltr;
+  margin: 36px auto;
+  color: #888;
+  p{
+    direction: rtl;
+    line-height: 40px;
+  }
+}
+.landing-box-logo svg{
+  font-size: 30px;
+  color: #aaa;
+  cursor: pointer;
+}
+.landing-box-logo{
+  position: absolute;
+  width: 60px;
+  height: 28px;
+  text-align: center;
+  top: 5px;
+  left: 5px;
+  border-right: 1px solid #ccc;
+  line-height: 28px;
+}
+.landing-link{
+  text-decoration: none;
+  color: #888;
+}
+.MuiStepLabel-iconContainer-257, .MuiStepLabel-iconContainer-368{
+  padding-left: 8px;
+  padding-right: 0;
+}

@@ -1,0 +1,96 @@
+.collective-khatm-card{
+  display: flex;
+  flex-direction: row;
+  align-items: stretch;
+  .right-box{
+    background-color: #009688;
+    width: 190px;
+    height: 314px;
+    button{
+      margin: 20px auto;
+      display: block;
+    }
+  }
+  .left-box{
+    flex: auto;
+    padding: 15px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+  }
+  .landing-box{
+    width: 80%;
+    border: 2px solid #ccc;
+    height: 40px;
+    line-height: 40px;
+    box-sizing: border-box;
+    position: relative;
+    border-radius: 3px;
+    padding: 0 0 0 85px;
+    direction: ltr;
+    margin: 36px auto;
+    color: #888;
+  }
+  .landing-box-logo svg{
+    font-size: 30px;
+    color: #aaa;
+    cursor: pointer;
+  }
+  .landing-box-logo{
+    position: absolute;
+    width: 60px;
+    height: 28px;
+    text-align: center;
+    top: 5px;
+    left: 5px;
+    border-right: 1px solid #ccc;
+    line-height: 28px;
+  }
+  .landing-link{
+    text-decoration: none;
+    color: #888;
+  }
+  .CircularProgressbar-path       { stroke: #fff; }
+  .CircularProgressbar-trail      { stroke: #ccc; }
+  .CircularProgressbar-text       { fill: #fff; }
+  .progress-bar-holder{
+    width: 130px;
+    margin: 40px auto 0;
+    display: block;
+    position: relative;
+  }
+  .circle-bar{
+    width: 100%;
+    height: 130px;
+  }
+  .progress-bar-content{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: inherit;
+    height: inherit;
+    color: #fff;
+    text-align: center;
+    z-index: 1000;
+    padding: 28px;
+    box-sizing: border-box;
+  }
+  .progress-bar-percentage{
+    font-size: 35px;
+  }
+  .landing-box-tip{
+    position: absolute;
+    top: 44px;
+    right: 0;
+    direction: rtl;
+  }
+  .participants{
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+    div{
+      margin: 0 2px;
+      line-height: 40px;
+    }
+  }
+}
