@@ -6,7 +6,7 @@ import './index.scss'
 import {RomanToArabic} from "../../../../helper";
 import {METADATA} from "../../../../meta";
 import {finishQuota} from "../../../../api";
-import Link from "react-router-dom/es/Link";
+import Link from "react-router-dom/Link";
 
 const META = METADATA()
 

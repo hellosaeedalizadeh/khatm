@@ -8,7 +8,7 @@ import ContactMail from '@material-ui/icons/ContactMail';
 import email from "../../img/khatm-mail.png";
 import {METADATA} from "../../meta";
 import {RomanToArabic} from "../../helper";
-import Link from "react-router-dom/es/Link";
+import Link from "react-router-dom/Link";
 
 const META = METADATA()
 

@@ -2,15 +2,15 @@ import React, {Component} from 'react'
 import Collective from "../collective/index";
 import './index.scss'
 import {getLocalStorage, setLocalStorage} from "../../localStorage";
-import Button from "material-ui/es/Button/Button";
-import Dialog from "material-ui/es/Dialog/Dialog";
-import DialogTitle from "material-ui/es/Dialog/DialogTitle";
-import DialogContent from "material-ui/es/Dialog/DialogContent";
-import DialogContentText from "material-ui/es/Dialog/DialogContentText";
+import Button from "material-ui/Button/Button";
+import Dialog from "material-ui/Dialog/Dialog";
+import DialogTitle from "material-ui/Dialog/DialogTitle";
+import DialogContent from "material-ui/Dialog/DialogContent";
+import DialogContentText from "material-ui/Dialog/DialogContentText";
 import TextField from "../../../node_modules/material-ui/TextField/TextField";
-import DialogActions from "material-ui/es/Dialog/DialogActions";
+import DialogActions from "material-ui/Dialog/DialogActions";
 import Countdown from 'react-countdown-now';
-import Typography from "material-ui/es/Typography/Typography";
+import Typography from "material-ui/Typography/Typography";
 import CreateKhatm from "../../components/createKhatm/index";
 import KeyboardArrowUp from '@material-ui/icons/KeyboardArrowUp'
 import {login, verify} from '../../api';

@@ -12,8 +12,8 @@ import Avatar from 'material-ui/Avatar';
 import Join from "../join/index";
 import {METADATA} from "../../meta";
 import {RomanToArabic} from "../../helper";
-import FormControlLabel from "material-ui/es/Form/FormControlLabel";
-import Checkbox from "material-ui/es/Checkbox/Checkbox";
+import FormControlLabel from "material-ui/Form/FormControlLabel";
+import Checkbox from "material-ui/Checkbox/Checkbox";
 import {changeIsPublic, getQuitas} from "../../api";
 
 const META = METADATA()

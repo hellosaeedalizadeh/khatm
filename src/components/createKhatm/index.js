@@ -4,15 +4,15 @@ import Stepper, { Step, StepLabel } from 'material-ui/Stepper';
 import './index.scss'
 import Grid from 'material-ui/Grid';
 import Paper from 'material-ui/Paper';
-import Typography from "material-ui/es/Typography/Typography";
-import TextField from "material-ui/es/TextField/TextField";
-import Tooltip from "material-ui/es/Tooltip/Tooltip";
-import FormControlLabel from "material-ui/es/Form/FormControlLabel";
-import Checkbox from "material-ui/es/Checkbox/Checkbox";
+import Typography from "material-ui/Typography/Typography";
+import TextField from "material-ui/TextField/TextField";
+import Tooltip from "material-ui/Tooltip/Tooltip";
+import FormControlLabel from "material-ui/Form/FormControlLabel";
+import Checkbox from "material-ui/Checkbox/Checkbox";
 import ContactMail from '@material-ui/icons/ContactMail';
-import LinkIcon from "@material-ui/icons/es/Link";
+import LinkIcon from "@material-ui/icons/Link";
 import { Link } from "react-router-dom";
-import Button from "material-ui/es/Button/Button";
+import Button from "material-ui/Button/Button";
 import {createKhatm} from "../../api";
 import {METADATA} from "../../meta";
 
