@@ -46,7 +46,7 @@ class KhatmCard extends Component{
                 </div>
                 <div className="left-box">
                     {item.status === 2 ?
-                        <Link to={`/khatm/${item.refrence_khatm.$id}`}>
+                        <Link to={`/khatm/details/${item.refrence_khatm.$id}`}>
                             <Typography color="textSecondary" style={{flexGrow: 2}}>
                                 ختم شماره {item.id}
                             </Typography>
@@ -62,7 +62,7 @@ class KhatmCard extends Component{
                             جزاکم الله
                         </Typography>
                         :
-                        <Link to={`/khatm/${item.refrence_khatm.$id}`}>
+                        <Link to={`/khatm/details/${item.refrence_khatm.$id}`}>
                             <Typography variant="headline" component="h3" style={{textAlign: 'center'}}>
                                 ختم شماره {item.id}
                             </Typography>

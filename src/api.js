@@ -1,7 +1,7 @@
 import axios from 'axios';
 import {getLocalStorage, setLocalStorage} from "./localStorage";
 
-const base = 'http://139.59.210.242'
+const base = 'http://139.59.210.242:8080'
 const api = {
     login: base + '/user/login',
     verify: base + '/user/verify',

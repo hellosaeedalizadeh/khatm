@@ -240,7 +240,7 @@ class CreateKhatm extends Component{
                             تبریک! ختم شما ایجاد گردید.
                         </Typography>
                         <Typography color="textSecondary">
-                            شما می توانید <Link to="/mykhatm">ختم ها</Link> و <Link to="/quotas">سهم های</Link> خود را در <Link to="/">نمایه کاربری</Link> مدیریت نمایید.
+                            شما می توانید <Link to="/khatm/mykhatm">ختم ها</Link> و <Link to="/khatm/quotas">سهم های</Link> خود را در <Link to="/khatm">نمایه کاربری</Link> مدیریت نمایید.
                         </Typography>
 
                         <div className="landing-box" style={{margin: '30px auto 100px'}}>

@@ -34,11 +34,11 @@ class Router extends Component{
             <MuiThemeProvider theme={theme}>
                 <BrowserRouter>
                     <div>
-                        <Route path="/" exact component={Home}/>
-                        <Route path="/mykhatm" exact component={MyKhatm}/>
-                        <Route path="/quotas" exact component={Quotas}/>
-                        <Route path="/collective" exact component={Collective}/>
-                        <Route path="/khatm/:id" exact component={Khatm}/>
+                        <Route path="/khatm" exact component={Home}/>
+                        <Route path="/khatm/mykhatm" exact component={MyKhatm}/>
+                        <Route path="/khatm/quotas" exact component={Quotas}/>
+                        <Route path="/khatm/collective" exact component={Collective}/>
+                        <Route path="/khatm/details/:id" exact component={Khatm}/>
 
                         {/*<Route path="/profile" exact component={Profile}/>*/}
                     </div>

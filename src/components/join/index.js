@@ -41,7 +41,7 @@ class Join extends Component{
             <div className="join-khatm-card">
                 <div className="right-box">
 
-                    <Link to="/quotas">
+                    <Link to="/khatm/quotas">
                     <Button variant="raised" color="secondary">مشاهده سهم</Button>
                     </Link>
 

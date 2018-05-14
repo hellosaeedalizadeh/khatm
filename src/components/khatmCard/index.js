@@ -164,7 +164,7 @@ class KhatmCard extends Component{
                             </div>
                         </Tooltip>
                         <a href={item.url} target="_blank" className="landing-link">
-                            <span style={{color: '#009688'}}>https</span>://FORGHAN.com/khatm/{item.id}
+                            <span style={{color: '#009688'}}>https</span>://FORGHAN.com/khatm/details/{item.id}
                         </a>
                         <div className="landing-box-tip">
                             <Typography color="textSecondary">
